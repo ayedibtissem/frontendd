@@ -1,0 +1,27 @@
+.Photo {
+    display: flex;
+    align-items: center;
+    height: 150%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .photo-img {
+    flex-shrink: 0;
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .graphic-img {
+    position: absolute;
+    top: 75%;
+    left: 10%
+    
+    
+    ;
+    width: 30%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
